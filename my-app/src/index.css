@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 6rem;
+}
+
+h1 {
+    margin: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    padding: .2rem;
+    list-style: none;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: darkslategray;
+    transition: .5s ease;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    border: .2rem darkslategray;
+    position: relative;
+    width: 30rem;
+    border-radius: 1rem;
+    height: 30rem;
+    margin: 1rem 1rem;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+section:hover {
+    border: 5px solid black;
+    opacity: .5;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.card1 {
+    background-image: url(https://i.pinimg.com/originals/dd/7e/17/dd7e172323cd16726d22f56ee5f49b37.jpg);
+
+}
+
+.card2 {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/msJ7bDf5nyPJ6CMbg4LwfE.png);
+}
+.card3 {
+    background-image: url(https://www.acouplecooks.com/wp-content/uploads/2020/04/Martini-003.jpg);
+}
+
+
+.cardheader {
+    display: flex;
+    border: .1rem solid darkslategray;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 500rem;
+    align-items: center;
+    padding: 5%;
+    margin-top: 25rem;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+aside {
+    background-color: black;
+    height: 100rem;
+    width: 15rem;
+    color: darkslategray;
+    display: block;
+    float: left;
+    padding: 1rem 0;
+    font-variant: small-caps;
+}
+
+.about {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: .5rem;
+}
+
+@media screen and (max-width: 992px) {
+
+    article,
+    section {
+        flex-direction: column;
+    }
+}
+
+Footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-top: 30rem;
+}
